@@ -41,7 +41,7 @@ class Student
   end
 
   def create(name:,grade:)
-    student=Student.new(name:,grade:)
+    student=Student.new(name: , grade:)
     Student.create_table
     student.save
     student
